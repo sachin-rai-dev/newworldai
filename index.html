@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .main{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    }
+     .div{
+      padding: 10px;
+      color: blueviolet;
+      background-color: brown;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+<input type="text" placeholder="enter" id="input"><button onclick="enterv()">check</button>
+<div id="val"></div>
+
+<script>
+
+  
+
+//   function amount() {
+//     let useramount=document.getElementById('amount').value;
+
+//   if (useramount<=8000) {
+
+// document.write("prossed")
+
+
+// } else {
+
+// document.getElementById('ty').innerHTML="<h1>invalid amount</h1>";
+
+// }
+
+// }
+
+
+
+function enterv(){
+  let input=document.getElementById("input").value;
+  if (input==="sachin") {
+    document.getElementById("val").innerHTML=input;
+  }
+  else{
+    console.log("sachin rai your id is not valid")
+  }
+  
+}
+
+ </script>
+
+
+
+<!-- // <br>
+// <input type="number"placeholder="enter your amount" id="amount">
+// <br>
+// <button onclick="amount()">enteramount</button> -->
+
+
+<!-- <div id="ty">
+
+
+</div> -->
+
+
+  <!-- if else statment for school grade -->
+
+  <!-- <script>
+    function grade(){
+    let se=document.getElementById('user').value;
+    if(se>=90){
+       document.write("a")
+    }
+    else if(se>=75){
+      document.write("b")
+
+    }
+    else if(se>=50){
+      document.write("c")
+
+    }
+    else if(se>=33){
+      document.write("d")
+
+    }
+    else{
+      document.write("f")
+    }
+
+
+
+
+    }
+  </script>
+  <input id="user"type="number"placeholder="enter">
+  <button onclick="grade()">cheak</button> -->
+</body>
+
+</html>
